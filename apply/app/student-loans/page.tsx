@@ -24,31 +24,31 @@ export default function Page() {
       >
         <div>
           <p
-            className="font-medium p-5 text-center"
+            className="font-medium p-1 text-center"
             style={{
               color: "#ec6b29",
               fontSize: "1.3rem",
             }}
           >
             New Lower Fixed Rates
-            <p className="text-4xl text-black text-center p-2">
-              4.49% - 14.99%
-              <br />
-              APR
-            </p>
+          </p>
+          <p className="text-4xl text-black text-center p-1">
+            4.49% - 14.99%
+            <br />
+            APR
           </p>
         </div>
         <div>
           <p
-            className="font-medium p-5 text-center"
+            className="font-medium text-center p-1"
             style={{ fontSize: "1.3rem" }}
           >
             Variable Rates
-            <p className="text-4xl text-black text-center p-2">
-              5.99% - 16.24%
-              <br />
-              APR
-            </p>
+          </p>
+          <p className="text-4xl text-black text-center p-2">
+            5.99% - 16.24%
+            <br />
+            APR
           </p>
         </div>
       </div>
