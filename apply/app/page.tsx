@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Page() {
   return (
     <>
-      <div className=" container py-6 px-8 mx-auto">
+      <div className=" container py-6 px-14 mx-auto">
         <Image
           src="/discover-logo.svg"
           width="113"
@@ -19,8 +19,9 @@ export default function Page() {
         <span className="text-3xl text-left inline-block align-middle p-14">
           <b>Hi, there. </b>
           <br />
-          Welcome to <br />
-          Discover
+          Welcome to the
+          <br />
+          Discover Event-Driven Prototype
         </span>
 
         <div>&nbsp;</div>
