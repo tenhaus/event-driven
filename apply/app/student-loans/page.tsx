@@ -18,7 +18,10 @@ export default function Page() {
       <div style={{ backgroundColor: "#23233f" }} className="h-96">
         &nbsp;
       </div>
-      <div className="grid grid-cols-3 px-24 py-10 tracking-wide">
+      <div
+        className="grid grid-cols-3 px-24 py-10 tracking-wide"
+        style={{ backgroundColor: "#f5f4f4" }}
+      >
         <div>
           <p className="text-2xl font-medium" style={{ color: "#ec6b29" }}>
             New Lower Fixed Rates

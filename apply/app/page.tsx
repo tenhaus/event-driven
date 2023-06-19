@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Page() {
   return (
     <>
-      <div className="bg-white container py-6 px-8 mx-auto">
+      <div className=" container py-6 px-8 mx-auto">
         <Image
           src="/discover-logo.svg"
           width="113"
