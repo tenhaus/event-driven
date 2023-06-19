@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "9F6GDwtte3nRhflQMIT2L9ZXcWCReCszEgbafBkpRYxCrXrOIwGteexkJIpS363rwqBiDkE9mue8jz96Xa5pug==",
+  "success": true,
+  "projectFilePath": "/Users/chris/code/github.com/tenhaus/event-driven/rates/rates.csproj",
+  "expectedPackageFiles": [
+    "/Users/chris/.nuget/packages/nats.client/1.0.4/nats.client.1.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

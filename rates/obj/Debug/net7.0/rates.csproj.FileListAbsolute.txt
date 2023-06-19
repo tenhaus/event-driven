@@ -1,0 +1,17 @@
+/Users/chris/code/github.com/tenhaus/event-driven/rates/bin/Debug/net7.0/rates
+/Users/chris/code/github.com/tenhaus/event-driven/rates/bin/Debug/net7.0/rates.deps.json
+/Users/chris/code/github.com/tenhaus/event-driven/rates/bin/Debug/net7.0/rates.runtimeconfig.json
+/Users/chris/code/github.com/tenhaus/event-driven/rates/bin/Debug/net7.0/rates.dll
+/Users/chris/code/github.com/tenhaus/event-driven/rates/bin/Debug/net7.0/rates.pdb
+/Users/chris/code/github.com/tenhaus/event-driven/rates/bin/Debug/net7.0/NATS.Client.dll
+/Users/chris/code/github.com/tenhaus/event-driven/rates/obj/Debug/net7.0/rates.csproj.AssemblyReference.cache
+/Users/chris/code/github.com/tenhaus/event-driven/rates/obj/Debug/net7.0/rates.GeneratedMSBuildEditorConfig.editorconfig
+/Users/chris/code/github.com/tenhaus/event-driven/rates/obj/Debug/net7.0/rates.AssemblyInfoInputs.cache
+/Users/chris/code/github.com/tenhaus/event-driven/rates/obj/Debug/net7.0/rates.AssemblyInfo.cs
+/Users/chris/code/github.com/tenhaus/event-driven/rates/obj/Debug/net7.0/rates.csproj.CoreCompileInputs.cache
+/Users/chris/code/github.com/tenhaus/event-driven/rates/obj/Debug/net7.0/rates.csproj.CopyComplete
+/Users/chris/code/github.com/tenhaus/event-driven/rates/obj/Debug/net7.0/rates.dll
+/Users/chris/code/github.com/tenhaus/event-driven/rates/obj/Debug/net7.0/refint/rates.dll
+/Users/chris/code/github.com/tenhaus/event-driven/rates/obj/Debug/net7.0/rates.pdb
+/Users/chris/code/github.com/tenhaus/event-driven/rates/obj/Debug/net7.0/rates.genruntimeconfig.cache
+/Users/chris/code/github.com/tenhaus/event-driven/rates/obj/Debug/net7.0/ref/rates.dll
