@@ -32,11 +32,17 @@ export default function Page() {
       </div>
 
       <div className="grid grid-cols-5 px-20 pb-5">
-        <div className="bg-gray-100 hover:bg-gray-200">&nbsp;</div>
-        <div className="bg-gray-100 hover:bg-gray-200">&nbsp;</div>
-        <div className="bg-gray-100 hover:bg-gray-200">&nbsp;</div>
+        <div className="bg-gray-100 hover:bg-gray-200 border-r-slate-500 border-r">
+          &nbsp;
+        </div>
+        <div className="bg-gray-100 hover:bg-gray-200 border-r-slate-500 border-r">
+          &nbsp;
+        </div>
+        <div className="bg-gray-100 hover:bg-gray-200 border-r-slate-500 border-r">
+          &nbsp;
+        </div>
         <Link href="/student-loans">
-          <div className="flex flex-col items-center ">
+          <div className="flex flex-col items-center p-2">
             <Image
               src="/student-loans.png"
               width="51"
@@ -46,7 +52,9 @@ export default function Page() {
             <p>Student Loans</p>
           </div>
         </Link>
-        <div className="bg-gray-100 hover:bg-gray-200">&nbsp;</div>
+        <div className="bg-gray-100 hover:bg-gray-200 border-l-slate-500 border-l">
+          &nbsp;
+        </div>
       </div>
 
       <hr />
