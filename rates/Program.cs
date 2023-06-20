@@ -1,8 +1,11 @@
 ﻿using NATS.Client;
 using System.Text;
+using System;
+
+string? natsHost = Environment.GetEnvironmentVariable("NATS_HOST");
 
 ConnectionFactory cf = new ConnectionFactory();
-IConnection c = cf.CreateConnection();
+IConnection c = cf.CreateConnection(natsHost);
 
 string json;
 using (StreamReader r = new StreamReader("rates.json"))
