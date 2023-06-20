@@ -1,6 +1,5 @@
 ﻿using NATS.Client;
 using System.Text;
-using System.Text.Json;
 
 ConnectionFactory cf = new ConnectionFactory();
 IConnection c = cf.CreateConnection();
@@ -9,11 +8,8 @@ string json;
 using (StreamReader r = new StreamReader("rates.json"))
 {
   json = r.ReadToEnd();
-  // List<Item> items = JsonConvert.DeserializeObject<List<Item>>(json);
 }
 
-
-// string jsonString = JsonSerializer.Serialize(weatherForecast);
 
 using (ISyncSubscription s = c.SubscribeSync("rates"))
 {

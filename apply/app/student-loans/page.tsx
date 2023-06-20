@@ -1,7 +1,21 @@
+import { Rates } from "@/lib/rates";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Page() {
+async function getData() {
+  const res = await fetch("http://localhost:3000//api/rates");
+
+  if (!res.ok) {
+    // This will activate the closest `error.js` Error Boundary
+    throw new Error("Failed to fetch data");
+  }
+
+  return res.json();
+}
+
+export default async function Page() {
+  const data: Rates = await getData();
+
   return (
     <div>
       <div style={{ backgroundColor: "#23233f" }} className="py-9 px-24">
@@ -33,7 +47,7 @@ export default function Page() {
             New Lower Fixed Rates
           </p>
           <p className="text-4xl text-black text-center p-1">
-            4.49% - 14.99%
+            {data.fixed.low}% - {data.fixed.high}%
             <br />
             APR
           </p>
@@ -46,7 +60,7 @@ export default function Page() {
             Variable Rates
           </p>
           <p className="text-4xl text-black text-center p-2">
-            5.99% - 16.24%
+            {data.variable.low}% - {data.variable.high}%
             <br />
             APR
           </p>
